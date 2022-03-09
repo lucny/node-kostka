@@ -1,0 +1,17 @@
+html
+  head
+    title
+  body
+    h1 Výsledky
+    table(style="width:50%",border="1")
+            tr
+                th  Date
+                th  Time
+                th  Player 
+                th  Points
+            each pl in players
+                tr
+                    td= pl.date
+                    td= pl.time
+                    td= pl.player 
+                    td= pl.points

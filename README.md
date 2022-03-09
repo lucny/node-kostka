@@ -1,0 +1,1 @@
+# Ukázková serverová aplikace v Node JS
