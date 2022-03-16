@@ -25,7 +25,7 @@ app.get("/results", (req, res) => {
         // log the JSON array
         console.log(data);
         //data = JSON.parse(data);
-        res.render('results', {players: data});
+        res.render('index', {players: data});
     }).catch(err => {
         // log error if any
         console.log(err);

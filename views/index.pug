@@ -1,0 +1,12 @@
+extends layout.pug
+include mixins/_trow
+
+block content
+    table(class="table table-striped")
+        tr.bg-dark.text-light
+            th  Date
+            th  Time
+            th  Player 
+            th  Points
+        each player in players
+            +trow(player)
